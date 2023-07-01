@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84DBFBFE2A50CED20016B1FB /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 84DBFBFD2A50CED20016B1FB /* Sounds */; };
-		9A8F3AC724EEBDBF00F7A44D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F3AC624EEBDBF00F7A44D /* AppDelegate.swift */; };
-		9A8F3AC924EEBDBF00F7A44D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F3AC824EEBDBF00F7A44D /* SceneDelegate.swift */; };
-		9A8F3ACB24EEBDBF00F7A44D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F3ACA24EEBDBF00F7A44D /* ViewController.swift */; };
-		9A8F3ACE24EEBDBF00F7A44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F3ACC24EEBDBF00F7A44D /* Main.storyboard */; };
-		9A8F3AD024EEBDC000F7A44D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F3ACF24EEBDC000F7A44D /* Assets.xcassets */; };
-		9A8F3AD324EEBDC000F7A44D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8F3AD124EEBDC000F7A44D /* LaunchScreen.storyboard */; };
-		9A8F3ADE24EEBDC000F7A44D /* XylophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F3ADD24EEBDC000F7A44D /* XylophoneTests.swift */; };
-		9A8F3AE924EEBDC100F7A44D /* XylophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8F3AE824EEBDC100F7A44D /* XylophoneUITests.swift */; };
+		9AC486F424EFCAED007AF243 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC486F324EFCAED007AF243 /* AppDelegate.swift */; };
+		9AC486F624EFCAED007AF243 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC486F524EFCAED007AF243 /* SceneDelegate.swift */; };
+		9AC486F824EFCAED007AF243 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC486F724EFCAED007AF243 /* ViewController.swift */; };
+		9AC486FB24EFCAED007AF243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC486F924EFCAED007AF243 /* Main.storyboard */; };
+		9AC486FD24EFCAED007AF243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC486FC24EFCAED007AF243 /* Assets.xcassets */; };
+		9AC4870024EFCAED007AF243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC486FE24EFCAED007AF243 /* LaunchScreen.storyboard */; };
+		9AC4870B24EFCAEE007AF243 /* Egg_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4870A24EFCAEE007AF243 /* Egg_TimerTests.swift */; };
+		9AC4871624EFCAEE007AF243 /* Egg_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC4871524EFCAEE007AF243 /* Egg_TimerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A8F3ADA24EEBDC000F7A44D /* PBXContainerItemProxy */ = {
+		9AC4870724EFCAEE007AF243 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A8F3ABB24EEBDBF00F7A44D /* Project object */;
+			containerPortal = 9AC486E824EFCAED007AF243 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A8F3AC224EEBDBF00F7A44D;
-			remoteInfo = Xylophone;
+			remoteGlobalIDString = 9AC486EF24EFCAED007AF243;
+			remoteInfo = "Egg Timer";
 		};
-		9A8F3AE524EEBDC100F7A44D /* PBXContainerItemProxy */ = {
+		9AC4871224EFCAEE007AF243 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A8F3ABB24EEBDBF00F7A44D /* Project object */;
+			containerPortal = 9AC486E824EFCAED007AF243 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A8F3AC224EEBDBF00F7A44D;
-			remoteInfo = Xylophone;
+			remoteGlobalIDString = 9AC486EF24EFCAED007AF243;
+			remoteInfo = "Egg Timer";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84DBFBFD2A50CED20016B1FB /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
-		9A8F3AC324EEBDBF00F7A44D /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8F3AC624EEBDBF00F7A44D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A8F3AC824EEBDBF00F7A44D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A8F3ACA24EEBDBF00F7A44D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A8F3ACD24EEBDBF00F7A44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9A8F3ACF24EEBDC000F7A44D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A8F3AD224EEBDC000F7A44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9A8F3AD424EEBDC000F7A44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A8F3AD924EEBDC000F7A44D /* XylophoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylophoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8F3ADD24EEBDC000F7A44D /* XylophoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneTests.swift; sourceTree = "<group>"; };
-		9A8F3ADF24EEBDC000F7A44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A8F3AE424EEBDC100F7A44D /* XylophoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylophoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A8F3AE824EEBDC100F7A44D /* XylophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneUITests.swift; sourceTree = "<group>"; };
-		9A8F3AEA24EEBDC100F7A44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC486F024EFCAED007AF243 /* Egg Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC486F324EFCAED007AF243 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AC486F524EFCAED007AF243 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9AC486F724EFCAED007AF243 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AC486FA24EFCAED007AF243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AC486FC24EFCAED007AF243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC486FF24EFCAED007AF243 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AC4870124EFCAED007AF243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC4870624EFCAEE007AF243 /* Egg TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC4870A24EFCAEE007AF243 /* Egg_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerTests.swift; sourceTree = "<group>"; };
+		9AC4870C24EFCAEE007AF243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC4871124EFCAEE007AF243 /* Egg TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC4871524EFCAEE007AF243 /* Egg_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_TimerUITests.swift; sourceTree = "<group>"; };
+		9AC4871724EFCAEE007AF243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A8F3AC024EEBDBF00F7A44D /* Frameworks */ = {
+		9AC486ED24EFCAED007AF243 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F3AD624EEBDC000F7A44D /* Frameworks */ = {
+		9AC4870324EFCAEE007AF243 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F3AE124EEBDC100F7A44D /* Frameworks */ = {
+		9AC4870E24EFCAEE007AF243 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,138 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A8F3ABA24EEBDBF00F7A44D = {
+		9AC486E724EFCAED007AF243 = {
 			isa = PBXGroup;
 			children = (
-				9A8F3AC524EEBDBF00F7A44D /* Xylophone */,
-				9A8F3ADC24EEBDC000F7A44D /* XylophoneTests */,
-				9A8F3AE724EEBDC100F7A44D /* XylophoneUITests */,
-				9A8F3AC424EEBDBF00F7A44D /* Products */,
+				9AC486F224EFCAED007AF243 /* Egg Timer */,
+				9AC4870924EFCAEE007AF243 /* Egg TimerTests */,
+				9AC4871424EFCAEE007AF243 /* Egg TimerUITests */,
+				9AC486F124EFCAED007AF243 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A8F3AC424EEBDBF00F7A44D /* Products */ = {
+		9AC486F124EFCAED007AF243 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A8F3AC324EEBDBF00F7A44D /* Xylophone.app */,
-				9A8F3AD924EEBDC000F7A44D /* XylophoneTests.xctest */,
-				9A8F3AE424EEBDC100F7A44D /* XylophoneUITests.xctest */,
+				9AC486F024EFCAED007AF243 /* Egg Timer.app */,
+				9AC4870624EFCAEE007AF243 /* Egg TimerTests.xctest */,
+				9AC4871124EFCAEE007AF243 /* Egg TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A8F3AC524EEBDBF00F7A44D /* Xylophone */ = {
+		9AC486F224EFCAED007AF243 /* Egg Timer */ = {
 			isa = PBXGroup;
 			children = (
-				84DBFBFD2A50CED20016B1FB /* Sounds */,
-				9A8F3AC624EEBDBF00F7A44D /* AppDelegate.swift */,
-				9A8F3AC824EEBDBF00F7A44D /* SceneDelegate.swift */,
-				9A8F3ACA24EEBDBF00F7A44D /* ViewController.swift */,
-				9A8F3ACC24EEBDBF00F7A44D /* Main.storyboard */,
-				9A8F3ACF24EEBDC000F7A44D /* Assets.xcassets */,
-				9A8F3AD124EEBDC000F7A44D /* LaunchScreen.storyboard */,
-				9A8F3AD424EEBDC000F7A44D /* Info.plist */,
+				9AC486F324EFCAED007AF243 /* AppDelegate.swift */,
+				9AC486F524EFCAED007AF243 /* SceneDelegate.swift */,
+				9AC486F724EFCAED007AF243 /* ViewController.swift */,
+				9AC486F924EFCAED007AF243 /* Main.storyboard */,
+				9AC486FC24EFCAED007AF243 /* Assets.xcassets */,
+				9AC486FE24EFCAED007AF243 /* LaunchScreen.storyboard */,
+				9AC4870124EFCAED007AF243 /* Info.plist */,
 			);
-			path = Xylophone;
+			path = "Egg Timer";
 			sourceTree = "<group>";
 		};
-		9A8F3ADC24EEBDC000F7A44D /* XylophoneTests */ = {
+		9AC4870924EFCAEE007AF243 /* Egg TimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A8F3ADD24EEBDC000F7A44D /* XylophoneTests.swift */,
-				9A8F3ADF24EEBDC000F7A44D /* Info.plist */,
+				9AC4870A24EFCAEE007AF243 /* Egg_TimerTests.swift */,
+				9AC4870C24EFCAEE007AF243 /* Info.plist */,
 			);
-			path = XylophoneTests;
+			path = "Egg TimerTests";
 			sourceTree = "<group>";
 		};
-		9A8F3AE724EEBDC100F7A44D /* XylophoneUITests */ = {
+		9AC4871424EFCAEE007AF243 /* Egg TimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9A8F3AE824EEBDC100F7A44D /* XylophoneUITests.swift */,
-				9A8F3AEA24EEBDC100F7A44D /* Info.plist */,
+				9AC4871524EFCAEE007AF243 /* Egg_TimerUITests.swift */,
+				9AC4871724EFCAEE007AF243 /* Info.plist */,
 			);
-			path = XylophoneUITests;
+			path = "Egg TimerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A8F3AC224EEBDBF00F7A44D /* Xylophone */ = {
+		9AC486EF24EFCAED007AF243 /* Egg Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8F3AED24EEBDC100F7A44D /* Build configuration list for PBXNativeTarget "Xylophone" */;
+			buildConfigurationList = 9AC4871A24EFCAEE007AF243 /* Build configuration list for PBXNativeTarget "Egg Timer" */;
 			buildPhases = (
-				9A8F3ABF24EEBDBF00F7A44D /* Sources */,
-				9A8F3AC024EEBDBF00F7A44D /* Frameworks */,
-				9A8F3AC124EEBDBF00F7A44D /* Resources */,
+				9AC486EC24EFCAED007AF243 /* Sources */,
+				9AC486ED24EFCAED007AF243 /* Frameworks */,
+				9AC486EE24EFCAED007AF243 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Xylophone;
-			productName = Xylophone;
-			productReference = 9A8F3AC324EEBDBF00F7A44D /* Xylophone.app */;
+			name = "Egg Timer";
+			productName = "Egg Timer";
+			productReference = 9AC486F024EFCAED007AF243 /* Egg Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A8F3AD824EEBDC000F7A44D /* XylophoneTests */ = {
+		9AC4870524EFCAEE007AF243 /* Egg TimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8F3AF024EEBDC100F7A44D /* Build configuration list for PBXNativeTarget "XylophoneTests" */;
+			buildConfigurationList = 9AC4871D24EFCAEE007AF243 /* Build configuration list for PBXNativeTarget "Egg TimerTests" */;
 			buildPhases = (
-				9A8F3AD524EEBDC000F7A44D /* Sources */,
-				9A8F3AD624EEBDC000F7A44D /* Frameworks */,
-				9A8F3AD724EEBDC000F7A44D /* Resources */,
+				9AC4870224EFCAEE007AF243 /* Sources */,
+				9AC4870324EFCAEE007AF243 /* Frameworks */,
+				9AC4870424EFCAEE007AF243 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A8F3ADB24EEBDC000F7A44D /* PBXTargetDependency */,
+				9AC4870824EFCAEE007AF243 /* PBXTargetDependency */,
 			);
-			name = XylophoneTests;
-			productName = XylophoneTests;
-			productReference = 9A8F3AD924EEBDC000F7A44D /* XylophoneTests.xctest */;
+			name = "Egg TimerTests";
+			productName = "Egg TimerTests";
+			productReference = 9AC4870624EFCAEE007AF243 /* Egg TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A8F3AE324EEBDC100F7A44D /* XylophoneUITests */ = {
+		9AC4871024EFCAEE007AF243 /* Egg TimerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8F3AF324EEBDC100F7A44D /* Build configuration list for PBXNativeTarget "XylophoneUITests" */;
+			buildConfigurationList = 9AC4872024EFCAEE007AF243 /* Build configuration list for PBXNativeTarget "Egg TimerUITests" */;
 			buildPhases = (
-				9A8F3AE024EEBDC100F7A44D /* Sources */,
-				9A8F3AE124EEBDC100F7A44D /* Frameworks */,
-				9A8F3AE224EEBDC100F7A44D /* Resources */,
+				9AC4870D24EFCAEE007AF243 /* Sources */,
+				9AC4870E24EFCAEE007AF243 /* Frameworks */,
+				9AC4870F24EFCAEE007AF243 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A8F3AE624EEBDC100F7A44D /* PBXTargetDependency */,
+				9AC4871324EFCAEE007AF243 /* PBXTargetDependency */,
 			);
-			name = XylophoneUITests;
-			productName = XylophoneUITests;
-			productReference = 9A8F3AE424EEBDC100F7A44D /* XylophoneUITests.xctest */;
+			name = "Egg TimerUITests";
+			productName = "Egg TimerUITests";
+			productReference = 9AC4871124EFCAEE007AF243 /* Egg TimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A8F3ABB24EEBDBF00F7A44D /* Project object */ = {
+		9AC486E824EFCAED007AF243 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					9A8F3AC224EEBDBF00F7A44D = {
+					9AC486EF24EFCAED007AF243 = {
 						CreatedOnToolsVersion = 12.0;
 					};
-					9A8F3AD824EEBDC000F7A44D = {
+					9AC4870524EFCAEE007AF243 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 9A8F3AC224EEBDBF00F7A44D;
+						TestTargetID = 9AC486EF24EFCAED007AF243;
 					};
-					9A8F3AE324EEBDC100F7A44D = {
+					9AC4871024EFCAEE007AF243 = {
 						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 9A8F3AC224EEBDBF00F7A44D;
+						TestTargetID = 9AC486EF24EFCAED007AF243;
 					};
 				};
 			};
-			buildConfigurationList = 9A8F3ABE24EEBDBF00F7A44D /* Build configuration list for PBXProject "Xylophone" */;
+			buildConfigurationList = 9AC486EB24EFCAED007AF243 /* Build configuration list for PBXProject "Egg Timer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,38 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 9A8F3ABA24EEBDBF00F7A44D;
-			productRefGroup = 9A8F3AC424EEBDBF00F7A44D /* Products */;
+			mainGroup = 9AC486E724EFCAED007AF243;
+			productRefGroup = 9AC486F124EFCAED007AF243 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A8F3AC224EEBDBF00F7A44D /* Xylophone */,
-				9A8F3AD824EEBDC000F7A44D /* XylophoneTests */,
-				9A8F3AE324EEBDC100F7A44D /* XylophoneUITests */,
+				9AC486EF24EFCAED007AF243 /* Egg Timer */,
+				9AC4870524EFCAEE007AF243 /* Egg TimerTests */,
+				9AC4871024EFCAEE007AF243 /* Egg TimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A8F3AC124EEBDBF00F7A44D /* Resources */ = {
+		9AC486EE24EFCAED007AF243 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8F3AD324EEBDC000F7A44D /* LaunchScreen.storyboard in Resources */,
-				9A8F3AD024EEBDC000F7A44D /* Assets.xcassets in Resources */,
-				84DBFBFE2A50CED20016B1FB /* Sounds in Resources */,
-				9A8F3ACE24EEBDBF00F7A44D /* Main.storyboard in Resources */,
+				9AC4870024EFCAED007AF243 /* LaunchScreen.storyboard in Resources */,
+				9AC486FD24EFCAED007AF243 /* Assets.xcassets in Resources */,
+				9AC486FB24EFCAED007AF243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F3AD724EEBDC000F7A44D /* Resources */ = {
+		9AC4870424EFCAEE007AF243 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F3AE224EEBDC100F7A44D /* Resources */ = {
+		9AC4870F24EFCAEE007AF243 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,60 +254,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A8F3ABF24EEBDBF00F7A44D /* Sources */ = {
+		9AC486EC24EFCAED007AF243 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8F3ACB24EEBDBF00F7A44D /* ViewController.swift in Sources */,
-				9A8F3AC724EEBDBF00F7A44D /* AppDelegate.swift in Sources */,
-				9A8F3AC924EEBDBF00F7A44D /* SceneDelegate.swift in Sources */,
+				9AC486F824EFCAED007AF243 /* ViewController.swift in Sources */,
+				9AC486F424EFCAED007AF243 /* AppDelegate.swift in Sources */,
+				9AC486F624EFCAED007AF243 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F3AD524EEBDC000F7A44D /* Sources */ = {
+		9AC4870224EFCAEE007AF243 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8F3ADE24EEBDC000F7A44D /* XylophoneTests.swift in Sources */,
+				9AC4870B24EFCAEE007AF243 /* Egg_TimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A8F3AE024EEBDC100F7A44D /* Sources */ = {
+		9AC4870D24EFCAEE007AF243 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A8F3AE924EEBDC100F7A44D /* XylophoneUITests.swift in Sources */,
+				9AC4871624EFCAEE007AF243 /* Egg_TimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A8F3ADB24EEBDC000F7A44D /* PBXTargetDependency */ = {
+		9AC4870824EFCAEE007AF243 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A8F3AC224EEBDBF00F7A44D /* Xylophone */;
-			targetProxy = 9A8F3ADA24EEBDC000F7A44D /* PBXContainerItemProxy */;
+			target = 9AC486EF24EFCAED007AF243 /* Egg Timer */;
+			targetProxy = 9AC4870724EFCAEE007AF243 /* PBXContainerItemProxy */;
 		};
-		9A8F3AE624EEBDC100F7A44D /* PBXTargetDependency */ = {
+		9AC4871324EFCAEE007AF243 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A8F3AC224EEBDBF00F7A44D /* Xylophone */;
-			targetProxy = 9A8F3AE524EEBDC100F7A44D /* PBXContainerItemProxy */;
+			target = 9AC486EF24EFCAED007AF243 /* Egg Timer */;
+			targetProxy = 9AC4871224EFCAEE007AF243 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A8F3ACC24EEBDBF00F7A44D /* Main.storyboard */ = {
+		9AC486F924EFCAED007AF243 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A8F3ACD24EEBDBF00F7A44D /* Base */,
+				9AC486FA24EFCAED007AF243 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9A8F3AD124EEBDC000F7A44D /* LaunchScreen.storyboard */ = {
+		9AC486FE24EFCAED007AF243 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9A8F3AD224EEBDC000F7A44D /* Base */,
+				9AC486FF24EFCAED007AF243 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -319,7 +315,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9A8F3AEB24EEBDC100F7A44D /* Debug */ = {
+		9AC4871824EFCAEE007AF243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		9A8F3AEC24EEBDC100F7A44D /* Release */ = {
+		9AC4871924EFCAEE007AF243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,162 +431,162 @@
 			};
 			name = Release;
 		};
-		9A8F3AEE24EEBDC100F7A44D /* Debug */ = {
+		9AC4871B24EFCAEE007AF243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = "Egg Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Elkomey.xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Egg-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9A8F3AEF24EEBDC100F7A44D /* Release */ = {
+		9AC4871C24EFCAEE007AF243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = "Egg Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Elkomey.xylophone;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Egg-Timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		9A8F3AF124EEBDC100F7A44D /* Debug */ = {
+		9AC4871E24EFCAEE007AF243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XylophoneTests/Info.plist;
+				INFOPLIST_FILE = "Egg TimerTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.malkhatib.XylophoneTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Egg-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xylophone.app/Xylophone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Timer.app/Egg Timer";
 			};
 			name = Debug;
 		};
-		9A8F3AF224EEBDC100F7A44D /* Release */ = {
+		9AC4871F24EFCAEE007AF243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XylophoneTests/Info.plist;
+				INFOPLIST_FILE = "Egg TimerTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.malkhatib.XylophoneTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Egg-TimerTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xylophone.app/Xylophone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Timer.app/Egg Timer";
 			};
 			name = Release;
 		};
-		9A8F3AF424EEBDC100F7A44D /* Debug */ = {
+		9AC4872124EFCAEE007AF243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XylophoneUITests/Info.plist;
+				INFOPLIST_FILE = "Egg TimerUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.malkhatib.XylophoneUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Egg-TimerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Xylophone;
+				TEST_TARGET_NAME = "Egg Timer";
 			};
 			name = Debug;
 		};
-		9A8F3AF524EEBDC100F7A44D /* Release */ = {
+		9AC4872224EFCAEE007AF243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = XylophoneUITests/Info.plist;
+				INFOPLIST_FILE = "Egg TimerUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.malkhatib.XylophoneUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Egg-TimerUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Xylophone;
+				TEST_TARGET_NAME = "Egg Timer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A8F3ABE24EEBDBF00F7A44D /* Build configuration list for PBXProject "Xylophone" */ = {
+		9AC486EB24EFCAED007AF243 /* Build configuration list for PBXProject "Egg Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A8F3AEB24EEBDC100F7A44D /* Debug */,
-				9A8F3AEC24EEBDC100F7A44D /* Release */,
+				9AC4871824EFCAEE007AF243 /* Debug */,
+				9AC4871924EFCAEE007AF243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A8F3AED24EEBDC100F7A44D /* Build configuration list for PBXNativeTarget "Xylophone" */ = {
+		9AC4871A24EFCAEE007AF243 /* Build configuration list for PBXNativeTarget "Egg Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A8F3AEE24EEBDC100F7A44D /* Debug */,
-				9A8F3AEF24EEBDC100F7A44D /* Release */,
+				9AC4871B24EFCAEE007AF243 /* Debug */,
+				9AC4871C24EFCAEE007AF243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A8F3AF024EEBDC100F7A44D /* Build configuration list for PBXNativeTarget "XylophoneTests" */ = {
+		9AC4871D24EFCAEE007AF243 /* Build configuration list for PBXNativeTarget "Egg TimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A8F3AF124EEBDC100F7A44D /* Debug */,
-				9A8F3AF224EEBDC100F7A44D /* Release */,
+				9AC4871E24EFCAEE007AF243 /* Debug */,
+				9AC4871F24EFCAEE007AF243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A8F3AF324EEBDC100F7A44D /* Build configuration list for PBXNativeTarget "XylophoneUITests" */ = {
+		9AC4872024EFCAEE007AF243 /* Build configuration list for PBXNativeTarget "Egg TimerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A8F3AF424EEBDC100F7A44D /* Debug */,
-				9A8F3AF524EEBDC100F7A44D /* Release */,
+				9AC4872124EFCAEE007AF243 /* Debug */,
+				9AC4872224EFCAEE007AF243 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A8F3ABB24EEBDBF00F7A44D /* Project object */;
+	rootObject = 9AC486E824EFCAED007AF243 /* Project object */;
 }
