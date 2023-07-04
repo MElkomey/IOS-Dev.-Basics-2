@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843FFC592A54BDD8006D9940 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FFC582A54BDD8006D9940 /* ResultViewController.swift */; };
+		9A68B5C624EFDC5A0024505B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68B5C524EFDC5A0024505B /* AppDelegate.swift */; };
+		9A68B5C824EFDC5A0024505B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68B5C724EFDC5A0024505B /* SceneDelegate.swift */; };
+		9A68B5CA24EFDC5A0024505B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68B5C924EFDC5A0024505B /* ViewController.swift */; };
+		9A68B5CD24EFDC5A0024505B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A68B5CB24EFDC5A0024505B /* Main.storyboard */; };
+		9A68B5CF24EFDC5B0024505B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A68B5CE24EFDC5B0024505B /* Assets.xcassets */; };
+		9A68B5D224EFDC5B0024505B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A68B5D024EFDC5B0024505B /* LaunchScreen.storyboard */; };
+		9A68B5DD24EFDC5B0024505B /* Bradford_FactorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68B5DC24EFDC5B0024505B /* Bradford_FactorTests.swift */; };
+		9A68B5E824EFDC5B0024505B /* Bradford_FactorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68B5E724EFDC5B0024505B /* Bradford_FactorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A68B5D924EFDC5B0024505B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A68B5BA24EFDC5A0024505B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A68B5C124EFDC5A0024505B;
+			remoteInfo = "Bradford Factor";
+		};
+		9A68B5E424EFDC5B0024505B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A68B5BA24EFDC5A0024505B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A68B5C124EFDC5A0024505B;
+			remoteInfo = "Bradford Factor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843FFC582A54BDD8006D9940 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9A68B5C224EFDC5A0024505B /* Bradford Factor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bradford Factor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A68B5C524EFDC5A0024505B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A68B5C724EFDC5A0024505B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9A68B5C924EFDC5A0024505B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A68B5CC24EFDC5A0024505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A68B5CE24EFDC5B0024505B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A68B5D124EFDC5B0024505B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A68B5D324EFDC5B0024505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A68B5D824EFDC5B0024505B /* Bradford FactorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bradford FactorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A68B5DC24EFDC5B0024505B /* Bradford_FactorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorTests.swift; sourceTree = "<group>"; };
+		9A68B5DE24EFDC5B0024505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A68B5E324EFDC5B0024505B /* Bradford FactorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bradford FactorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A68B5E724EFDC5B0024505B /* Bradford_FactorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bradford_FactorUITests.swift; sourceTree = "<group>"; };
+		9A68B5E924EFDC5B0024505B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A68B5BF24EFDC5A0024505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68B5D524EFDC5B0024505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68B5E024EFDC5B0024505B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843FFC562A54BD54006D9940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A68B5CB24EFDC5A0024505B /* Main.storyboard */,
+				9A68B5D024EFDC5B0024505B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843FFC572A54BD6F006D9940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A68B5C524EFDC5A0024505B /* AppDelegate.swift */,
+				9A68B5C724EFDC5A0024505B /* SceneDelegate.swift */,
+				9A68B5C924EFDC5A0024505B /* ViewController.swift */,
+				843FFC582A54BDD8006D9940 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A68B5B924EFDC5A0024505B = {
+			isa = PBXGroup;
+			children = (
+				9A68B5C424EFDC5A0024505B /* Bradford Factor */,
+				9A68B5DB24EFDC5B0024505B /* Bradford FactorTests */,
+				9A68B5E624EFDC5B0024505B /* Bradford FactorUITests */,
+				9A68B5C324EFDC5A0024505B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A68B5C324EFDC5A0024505B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A68B5C224EFDC5A0024505B /* Bradford Factor.app */,
+				9A68B5D824EFDC5B0024505B /* Bradford FactorTests.xctest */,
+				9A68B5E324EFDC5B0024505B /* Bradford FactorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A68B5C424EFDC5A0024505B /* Bradford Factor */ = {
+			isa = PBXGroup;
+			children = (
+				843FFC572A54BD6F006D9940 /* Controller */,
+				843FFC562A54BD54006D9940 /* View */,
+				9A68B5CE24EFDC5B0024505B /* Assets.xcassets */,
+				9A68B5D324EFDC5B0024505B /* Info.plist */,
+			);
+			path = "Bradford Factor";
+			sourceTree = "<group>";
+		};
+		9A68B5DB24EFDC5B0024505B /* Bradford FactorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A68B5DC24EFDC5B0024505B /* Bradford_FactorTests.swift */,
+				9A68B5DE24EFDC5B0024505B /* Info.plist */,
+			);
+			path = "Bradford FactorTests";
+			sourceTree = "<group>";
+		};
+		9A68B5E624EFDC5B0024505B /* Bradford FactorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A68B5E724EFDC5B0024505B /* Bradford_FactorUITests.swift */,
+				9A68B5E924EFDC5B0024505B /* Info.plist */,
+			);
+			path = "Bradford FactorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A68B5C124EFDC5A0024505B /* Bradford Factor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A68B5EC24EFDC5B0024505B /* Build configuration list for PBXNativeTarget "Bradford Factor" */;
+			buildPhases = (
+				9A68B5BE24EFDC5A0024505B /* Sources */,
+				9A68B5BF24EFDC5A0024505B /* Frameworks */,
+				9A68B5C024EFDC5A0024505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bradford Factor";
+			productName = "Bradford Factor";
+			productReference = 9A68B5C224EFDC5A0024505B /* Bradford Factor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A68B5D724EFDC5B0024505B /* Bradford FactorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A68B5EF24EFDC5B0024505B /* Build configuration list for PBXNativeTarget "Bradford FactorTests" */;
+			buildPhases = (
+				9A68B5D424EFDC5B0024505B /* Sources */,
+				9A68B5D524EFDC5B0024505B /* Frameworks */,
+				9A68B5D624EFDC5B0024505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A68B5DA24EFDC5B0024505B /* PBXTargetDependency */,
+			);
+			name = "Bradford FactorTests";
+			productName = "Bradford FactorTests";
+			productReference = 9A68B5D824EFDC5B0024505B /* Bradford FactorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A68B5E224EFDC5B0024505B /* Bradford FactorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A68B5F224EFDC5B0024505B /* Build configuration list for PBXNativeTarget "Bradford FactorUITests" */;
+			buildPhases = (
+				9A68B5DF24EFDC5B0024505B /* Sources */,
+				9A68B5E024EFDC5B0024505B /* Frameworks */,
+				9A68B5E124EFDC5B0024505B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A68B5E524EFDC5B0024505B /* PBXTargetDependency */,
+			);
+			name = "Bradford FactorUITests";
+			productName = "Bradford FactorUITests";
+			productReference = 9A68B5E324EFDC5B0024505B /* Bradford FactorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A68B5BA24EFDC5A0024505B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9A68B5C124EFDC5A0024505B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9A68B5D724EFDC5B0024505B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9A68B5C124EFDC5A0024505B;
+					};
+					9A68B5E224EFDC5B0024505B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9A68B5C124EFDC5A0024505B;
+					};
+				};
+			};
+			buildConfigurationList = 9A68B5BD24EFDC5A0024505B /* Build configuration list for PBXProject "Bradford Factor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A68B5B924EFDC5A0024505B;
+			productRefGroup = 9A68B5C324EFDC5A0024505B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A68B5C124EFDC5A0024505B /* Bradford Factor */,
+				9A68B5D724EFDC5B0024505B /* Bradford FactorTests */,
+				9A68B5E224EFDC5B0024505B /* Bradford FactorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A68B5C024EFDC5A0024505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A68B5D224EFDC5B0024505B /* LaunchScreen.storyboard in Resources */,
+				9A68B5CF24EFDC5B0024505B /* Assets.xcassets in Resources */,
+				9A68B5CD24EFDC5A0024505B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68B5D624EFDC5B0024505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68B5E124EFDC5B0024505B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A68B5BE24EFDC5A0024505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A68B5CA24EFDC5A0024505B /* ViewController.swift in Sources */,
+				9A68B5C624EFDC5A0024505B /* AppDelegate.swift in Sources */,
+				9A68B5C824EFDC5A0024505B /* SceneDelegate.swift in Sources */,
+				843FFC592A54BDD8006D9940 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68B5D424EFDC5B0024505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A68B5DD24EFDC5B0024505B /* Bradford_FactorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A68B5DF24EFDC5B0024505B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A68B5E824EFDC5B0024505B /* Bradford_FactorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A68B5DA24EFDC5B0024505B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A68B5C124EFDC5A0024505B /* Bradford Factor */;
+			targetProxy = 9A68B5D924EFDC5B0024505B /* PBXContainerItemProxy */;
+		};
+		9A68B5E524EFDC5B0024505B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A68B5C124EFDC5A0024505B /* Bradford Factor */;
+			targetProxy = 9A68B5E424EFDC5B0024505B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A68B5CB24EFDC5A0024505B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A68B5CC24EFDC5A0024505B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A68B5D024EFDC5B0024505B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A68B5D124EFDC5B0024505B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A68B5EA24EFDC5B0024505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A68B5EB24EFDC5B0024505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A68B5ED24EFDC5B0024505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bradford Factor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Bradford-Factor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A68B5EE24EFDC5B0024505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bradford Factor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Bradford-Factor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9A68B5F024EFDC5B0024505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bradford FactorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Bradford-FactorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradford Factor.app/Bradford Factor";
+			};
+			name = Debug;
+		};
+		9A68B5F124EFDC5B0024505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bradford FactorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Bradford-FactorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bradford Factor.app/Bradford Factor";
+			};
+			name = Release;
+		};
+		9A68B5F324EFDC5B0024505B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bradford FactorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Bradford-FactorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bradford Factor";
+			};
+			name = Debug;
+		};
+		9A68B5F424EFDC5B0024505B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bradford FactorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.malkhatib.Bradford-FactorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bradford Factor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A68B5BD24EFDC5A0024505B /* Build configuration list for PBXProject "Bradford Factor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A68B5EA24EFDC5B0024505B /* Debug */,
+				9A68B5EB24EFDC5B0024505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A68B5EC24EFDC5B0024505B /* Build configuration list for PBXNativeTarget "Bradford Factor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A68B5ED24EFDC5B0024505B /* Debug */,
+				9A68B5EE24EFDC5B0024505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A68B5EF24EFDC5B0024505B /* Build configuration list for PBXNativeTarget "Bradford FactorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A68B5F024EFDC5B0024505B /* Debug */,
+				9A68B5F124EFDC5B0024505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A68B5F224EFDC5B0024505B /* Build configuration list for PBXNativeTarget "Bradford FactorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A68B5F324EFDC5B0024505B /* Debug */,
+				9A68B5F424EFDC5B0024505B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A68B5BA24EFDC5A0024505B /* Project object */;
+}
