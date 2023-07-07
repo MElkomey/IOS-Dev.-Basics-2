@@ -6,6 +6,9 @@
 //
 
 import UIKit
+import CoreLocation
+
+
 
 class ViewController: UIViewController {
     
@@ -17,12 +20,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var populationLbl: UILabel!
     
     var countryAPI = CountryAPI()
+    var locationManager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         searchTextField.delegate = self
         searchTextField.returnKeyType = .search
+        countryAPI.delegate = self
+        locationManager.delegate = self
     }
 
     @IBAction func searchButtonPressed(_ sender: UIButton) {
@@ -30,7 +36,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func locationButtonPressed(_ sender: UIButton) {
-        print("Location key pressed")
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.requestAlwaysAuthorization()
+        locationManager.requestLocation()
     }
     
     func updateUI(){
@@ -42,5 +50,37 @@ extension ViewController: UITextFieldDelegate{
        updateUI()
         return true
     }
+}
+
+extension ViewController:CountryAPIDelegate{
+    func didRetrieveCountryInfo(country : Country) {
+       // print(country)
+        DispatchQueue.main.async {
+            self.countryLbl.text = country.name.common
+            self.capitalLbl.text = country.capital[0]
+            self.regionLbl.text = country.region
+            self.populationLbl.text = String(country.population)
+        }
+    }
+}
+
+extension ViewController:CLLocationManagerDelegate{
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let location = locations.last
+        let geocoder = CLGeocoder()
+        geocoder.reverseGeocodeLocation(location!) { placemarks, error in
+           // print(placemarks?.last?.isoCountryCode)
+            if let countryName = placemarks?.last?.country{
+                self.countryAPI.fetchData(country: countryName)
+            }
+        }
+        //print(location)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
+    }
+    
 }
 
