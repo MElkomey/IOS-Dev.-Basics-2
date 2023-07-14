@@ -6,19 +6,28 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ItemsTableViewController: UITableViewController {
+    
+    var category:Category?{
+        didSet{
+            print(category?.name)
+            items = category?.items.sorted(byKeyPath: "name")
+        }
+    }
 
-    var items = [""]
+    let realm = try! Realm()
+    
+    //var items = [Item]()
+    var items:Results<Item>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        //print path of db
+        print(Realm.Configuration.defaultConfiguration.fileURL)
+        title = category?.name
     }
 
     func showAlert(){
@@ -31,8 +40,14 @@ class ItemsTableViewController: UITableViewController {
         }
         let addAction = UIAlertAction(title: "Add", style: .default) { (action) in
             print("item added")
-            self.items.append(textField.text!)
-            print(self.items)
+            let item = Item()
+            item.name = textField.text!
+            //self.items.append(item)
+            //print(self.items)
+            try! self.realm.write {
+                //self.realm.add(item)
+                self.category?.items.append(item)
+            }
             self.tableView.reloadData()
         }
         let cancelAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
@@ -57,20 +72,43 @@ class ItemsTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        //this line reuse a group of cells again with accessories so we need to checkmark bt item itself
         let cell = tableView.dequeueReusableCell(withIdentifier: "itemCell", for: indexPath)
 
-        cell.textLabel?.text = items[indexPath.row]
+        cell.textLabel?.text = items[indexPath.row].name
+        if items[indexPath.row].isChecked{
+           cell.accessoryType = .checkmark
+        }
 
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if tableView.cellForRow(at: indexPath)?.accessoryType == UITableViewCell.AccessoryType.none {
+        var item = items[indexPath.row]
+        try! realm.write{
+            item.isChecked = !item.isChecked
+        }
+        if item.isChecked{
             tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
         }else{
             tableView.cellForRow(at: indexPath)?.accessoryType = .none
         }
+        //items[indexPath.row].isChecked = !items[indexPath.row].isChecked
     }
+    
+    //to have a delete trailing swipe button
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        //this will performed automatically when press delete
+        let swipedItem = items[indexPath.row]
+        
+        try! realm.write{
+            realm.delete(swipedItem)
+        }
+        tableView.reloadData()
+    }
+    
+    
+    
     
 
     /*
